@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    background-image: linear-gradient(to right, #2a087e, #1a3497, #056fb9);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center
+}
+
+.menu{
+    display: flex;
+}
+.menu > li{
+    margin-left: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu > li > p{
+    display: block;
+    margin: 15px;
+    color: white;
+}
+.logo-img{
+    max-width: 50px;
+}
+.logo-img > img{
+    max-width: 100%;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/img/background.jpg)
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    max-width: 40%;
+}
+.img-book{
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 15%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(36, 144, 187, 0.952);
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 1rem;
+}
+.img-book>h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.img-book>p{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    margin-top: 25%;
+    margin-left: 25%;
+    max-height: 465px;
+    max-width: 350px;
+    border-radius: 2%;
+    background:rgba(36, 144, 187, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.formulario>form>input{
+    margin: 2px;
+    margin-left: 6%;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+    background-color: #056fb9;
+    margin: 4px;
+}
+input::placeholder{
+    color: white;
+}
+.formulario>img{
+    max-width: 35%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+.formulario>h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.formulario>form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
